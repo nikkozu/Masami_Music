@@ -16,6 +16,7 @@
   <li>Moe : Give you random moe image</li>
   <li>Neko : Give you random Neko Image</li>
 </ul> 
+
 ### Core
 <ul>
   <li>Donate : Give some your money</li>
@@ -24,6 +25,7 @@
   <li>Ping : Test bot ping</li>
   <li>Support : Support channel</li>
 </ul>
+
 ### Fun
 <ul>
   <li>8ball : answer your question with yes or no arguments</li>
@@ -33,6 +35,7 @@
   <li>Say : Bot will send back what you say</li>
   <li>Woof : Give you random Dog image</li>
 </ul>
+
 ### Guild
 <ul>
   <li>Ban : Banned member from guild (admin only)</li>
@@ -42,6 +45,7 @@
   <li>Prefix : Change bot prefix (admin only)</li>
   <li>Roles : Show roles list in guild</li>
 </ul>
+
 ### Info
 <ul>
   <li>Avatar : Send your avatar image</li>
@@ -49,6 +53,7 @@
   <li>Server : Showing Server Information</li>
   <li>User : Showing User Information</li>
 </ul>
+
 ### Util
 <ul>
   <li>Google : Search Google from API</li>
