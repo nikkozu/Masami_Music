@@ -62,5 +62,5 @@
   <li>Weather : Show weather of current location</li>
 </ul>
 <a target="_blank" onclick="trackRegularWebClick('MasamiBot', 'description');" href="https://discordbots.org/bot/423306939854749697">
-  <img src="https://discordbots.org/api/widget/423306939854749697.svg" alt="Discord Music Bot">
+  <img src="https://discordbots.org/api/widget/423306939854749697.svg?topcolor=f4f442" alt="Discord Music Bot">
 </a>
