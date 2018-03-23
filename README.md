@@ -54,6 +54,17 @@
   <li>User : Showing User Information</li>
 </ul>
 
+### Music
+<ul>
+  <li>Np : now playing</li>
+  <li>Pause : Pause the music</li>
+  <li>Play : Play the music, use : [music-name] || [url] || [playlist-url]</li>
+  <li>Queue : Show what music in queue</li>
+  <li>Skip : Skip the music</li>
+  <li>Stop : Stop the music</li>
+  <li>Unpause : Unpause the music</li>
+ </ul>
+
 ### Util
 <ul>
   <li>Google : Search Google from API</li>
