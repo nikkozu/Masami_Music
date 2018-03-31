@@ -6,7 +6,7 @@
   <a href="https://patreon.com/masamiakizuki">
     <img src="http://ionicabizau.github.io/badges/patreon.svg"></a>
       <a href="https://twitter.com/intent/follow?screen_name=masami45_">
-        <img src="https://img.shields.io/twitter/follow/shields_io.svg?style=social&logo=twitter"
+        <img src="https://img.shields.io/twitter/follow/masami45_.svg?style=social&logo=twitter"
             alt="follow on Twitter"></a>
 </p>
 
