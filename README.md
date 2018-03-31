@@ -5,6 +5,9 @@
     <img src="https://discordapp.com/api/guilds/411750522345881621/embed.png"></a>
   <a href="https://patreon.com/masamiakizuki">
     <img src="http://ionicabizau.github.io/badges/patreon.svg"></a>
+      <a href="https://twitter.com/intent/follow?screen_name=masami45_">
+        <img src="https://img.shields.io/twitter/follow/shields_io.svg?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
 </p>
 
 **MasamiBot** is bot that use [Discord.js](https://discord.js.org/#/) as the libs. MasamiBot has many commands that can be used. From **Anime**, **Fun**, **Info**, **Utility**, **And More**.
