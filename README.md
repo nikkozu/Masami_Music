@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://discord.io/masamibot-official">
-    <img src="https://discordapp.com/api/guilds/411750522345881621/embed.png"></a>
+    <img src="https://discordapp.com/api/guilds/430945153612513281/embed.png"></a>
   <a href="https://patreon.com/masamiakizuki">
     <img src="http://ionicabizau.github.io/badges/patreon.svg"></a>
       <a href="https://twitter.com/intent/follow?screen_name=masami45_">
