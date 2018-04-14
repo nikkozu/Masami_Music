@@ -31,7 +31,7 @@ music.on('message', async message => {
 
     let prefix = prefixes[message.guild.id].prefixes;
     let msg = message.content.toLowerCase();
-    let sender = message.author;
+    let sender = messag.author;
     let args = message.content.slice(prefix.length).trim().split(" ");
     let cmd = args.shift().toLowerCase();
 
