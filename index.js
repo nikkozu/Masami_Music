@@ -4,19 +4,7 @@ const cfg = require("./config.json");
 const fs = require("fs");
 music.commands = new Discord.Collection();
 const {color} = require('./config.json');
-const express = require('express');
-const http = require('http');
-const app = express();
 const queue = new Map();
-
-app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 280000);
 
 fs.readdir("./commands/", (err, files) => {
 
@@ -34,7 +22,14 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 music.on('message', async message => {
-    let prefix = cfg.prefix;
+    let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"));
+	  if (!prefixes[message.guild.id]) {
+		prefixes[message.guild.id] = {
+			prefixes: cfg.prefix
+		};
+    }
+
+    let prefix = prefixes[message.guild.id].prefixes;
     let msg = message.content.toLowerCase();
     let sender = message.author;
     let args = message.content.slice(prefix.length).trim().split(" ");
