@@ -34,14 +34,7 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 music.on('message', async message => {
-    let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"));
-	  if (!prefixes[message.guild.id]) {
-		prefixes[message.guild.id] = {
-			prefixes: cfg.prefix
-		};
-    }
-
-    let prefix = prefixes[message.guild.id].prefixes;
+    let prefix = cfg.prefix;
     let msg = message.content.toLowerCase();
     let sender = message.author;
     let args = message.content.slice(prefix.length).trim().split(" ");
