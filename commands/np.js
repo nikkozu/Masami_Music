@@ -6,7 +6,7 @@ const moment = require('moment');
 const yt = require('ytdl-core');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube(key);
-const opus = require("node-opus");
+const opus = require("opusscript");
 const gyp = require("node-gyp");
 
 exports.run = async(music, message, args, color, queue) => {
