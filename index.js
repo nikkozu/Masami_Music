@@ -1,10 +1,8 @@
 const Discord = require("discord.js");
-const music = new Discord.Client({disableEveryone: true});
 const cfg = require("./config.json");
 const fs = require("fs");
 music.commands = new Discord.Collection();
 const {color} = require('./config.json');
-const queue = new Map();
 
 fs.readdir("./commands/", (err, files) => {
 
