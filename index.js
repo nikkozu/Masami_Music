@@ -4,21 +4,6 @@ const fs = require("fs");
 music.commands = new Discord.Collection();
 const {color} = require('./config.json');
 
-fs.readdir("./commands/", (err, files) => {
-
-	if (err) console.log(err);
-	let jsfile = files.filter(f => f.split(".").pop() === "js")
-	if(jsfile.length <= 0) {
-		console.log("Couldn't find commands.");
-		return;
-	}
-
-	jsfile.forEach((f, i) => {
-		let props = require(`./commands/${f}`);
-		music.commands.set(props.help.name, props);
-	});
-});
-
 music.on('message', async message => {
     let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"));
 	  if (!prefixes[message.guild.id]) {
