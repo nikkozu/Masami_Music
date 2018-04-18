@@ -1,8 +1,10 @@
 const Discord = require("discord.js");
 const cfg = require("./config.json");
+const music = new Discord.Client({disableEveryone: true});
 const fs = require("fs");
 music.commands = new Discord.Collection();
 const {color} = require('./config.json');
+const queue = new Map();
 
 music.on('message', async message => {
     let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"));
