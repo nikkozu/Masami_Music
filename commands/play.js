@@ -139,7 +139,7 @@ const dispatcher = serverQueue.connection.playStream(yt(song.url))
             serverQueue.songs.shift();
             setTimeout(() => {
                 play(guild, serverQueue.songs[0]);
-            });
+            }, 250);
         })
         .on('error', error => console.error(error));
     dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
