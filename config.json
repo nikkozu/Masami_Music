@@ -1,6 +1,7 @@
 {
-  	"prefix": "ms!",
-	"credits": "© MasamiBot",
-	"version": "v0.1.1",
-	"color": "#f4f442"
+  	"prefix": "YOUR_PREFIX_GOES_HERE",
+	"credits": "FOR_CREDITS_FOOTER",
+	"version": "FOR_VERSION_FOOTER",
+	"color": "EMBED_COLOR",
+	"token": "SECRET_TOKEN_GOES_HERE"
 }
