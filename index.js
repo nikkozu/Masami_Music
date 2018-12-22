@@ -31,5 +31,5 @@ music.on('message', async message => {
 music.login(token);
 
 music.on('ready', async () => {
-    console.log(`${music.user.username} is online!`);
+    console.log(`${music.user.username} im online!`);
 });
